@@ -43,6 +43,6 @@ class LargestPalindromeProductTest < Test::Unit::TestCase
   end
 
   def test_largest_palindrome
-    assert_equal 9009, largest_palindrome(100, 999)
+    assert_equal 906609, largest_palindrome(100, 999)
   end
 end
