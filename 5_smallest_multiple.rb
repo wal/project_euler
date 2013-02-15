@@ -14,7 +14,7 @@ def smallest_multiple(starting_point, end_point)
       next
     else
       index = 0
-      n +=end_point
+      n +=end_pointe
     end
   end until(index == end_point)
   n
